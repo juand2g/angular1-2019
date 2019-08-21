@@ -16,11 +16,7 @@ export class ProductListComponent {
   
   onNotify() {
     window.alert('You will be notified when the product goes on sale');
-    products.push({
-      name: 'Phone XL222',
-      price: 799,
-      description: '2222A large phone with one of the best screens'
-    })
+   
     
   }
 }
